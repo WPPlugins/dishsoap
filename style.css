@@ -1,0 +1,57 @@
+#dishsoap-meta select {
+  font-size: 12px;
+}
+
+#dishsoap-meta .expiredpost, #dishsoap-meta .statuspost, #dishsoap-meta .unstuckpost {
+  display: block;
+  padding: .5em;
+  margin-top: 5px;
+}
+
+#dishsoap-meta .expiredpost {
+  background: #FFEBE8;
+  border-left: 4px solid #C00;
+}
+
+#dishsoap-meta .statuspost {
+  background: lightYellow;
+  border-left: 4px solid #E6DB55;
+}
+
+#dishsoap-meta .unstuckpost {
+  background: #fbb401;
+  border-left: 4px solid #f98401;
+}
+
+#dishsoap-meta a.delete_dishsoap {
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  border-bottom-color: red;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  text-decoration: none;
+  margin-top: 5px;
+  padding: 1px 2px;
+}
+
+#dishsoap-meta a.delete_dishsoap:hover, #dishsoap-meta a.delete_dishsoap:focus {
+  color: white;
+  background-color: red;
+  border-bottom-color: red;
+}
+
+#ds_option_select {
+  display: block;
+  margin-top: .5em;
+}
+
+div.dishsoap_debug {
+  background: #acacac;
+  display: block;
+  padding: 5px;
+  color: white;
+  border: 1px solid #919191;
+  margin-top: 5px;
+  text-shadow: 0 1px 1px black;
+}
